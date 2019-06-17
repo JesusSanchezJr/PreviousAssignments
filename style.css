@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 11, 2018, 7:14:02 PM
+    Author     : JesusSanchez
+*/
+h1{
+    font-size: 200%;
+    color: maroon;
+    font-weight: bolder;
+        
+}
+
+body{
+    color:cornsilk;
+}
+
+h2{
+    font-size:125%;
+        color: black;
+        
+}
+h3{
+    color:black;
+    font-size: 125%;
+    
+}
+p{
+    font-size: 100%;
+    color: black;
+}
+
+h4{
+    color:black;
+    font-size:100%;
+    font-style: italic;
+}
+
+table{
+    color:black;
+}

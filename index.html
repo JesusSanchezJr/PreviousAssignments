@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>NoNa Coding</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>Welcome to NoNa Coding School</h1>
+        <br>
+   <h2>Please fill out the following form to register you for the program!</h2>
+   <h3>The following form will register you for the upcoming coding boot camp</h3>
+   <p>You will soon be receiving an E-mail with the address to your class as well as the syllabus and the times 
+   the class will meet.  Can not wait to meet you!</p>
+   <form action="Registry" method="post">
+   <table border="1" width="600px" cellspacing="5" cellpadding="2">
+           <tr>
+               <td>Please Create a Username: </td>
+               <td><input type="text" name="username"></td>
+           </tr>
+        <tr>
+               <td>Please Enter an EMail: </td>
+               <td><input type="text" name="email"></td>
+           </tr>
+           <tr>
+               <td>Create a Password: </td>
+               <td><input type="password" name="password"></td>
+           </tr>
+           <tr>
+               <td>Please enter the best phone number to reach you: </td>
+               <td><input type="text" name="phone"></td>
+           </tr>
+           <tr>
+               <td>First Name: </td>
+               <td><input type="text" name="firstName"></td>
+           </tr>
+           <tr>
+               <td>Last Name: </td>
+               <td><input type="text" name="lastName"></td>
+           </tr>
+           <tr>
+               <td>Which City are you located in?</td>
+               <td><select name="location">   
+                       <option value="New York City">New York City</option>
+                       <option value="Los Angeles">Los Angeles</option>
+                         <option value="Miami">Miami</option>
+                         <option value="Naples" selected>Naples</option>  
+                   </select>
+               </td>
+              
+           </tr>
+           <tr>
+               <td>
+            Have you registered for classes before?
+            (Leave unchecked if you have never taken a 
+            class with us before)
+               </td>
+               <td>
+                        <input type="checkbox" name="yesNo">Yes
+               </td>
+           </tr>  
+       </tbody>
+   </table>
+      
+       <br>
+<button type="submit" name="Submit">Submit</button> |  <button type="reset" name="Reset">Reset</button>
+    </form>
+    </body>
+</html>
